@@ -190,6 +190,7 @@ public class AppLaunch {
             }
         }
         System.out.println("\n");
+
     }
     public static void findEmployeesWithSalaryLessThan(double salary) {
         System.out.println("Все сотрудники с заработной платой меньше ₽" + salary);

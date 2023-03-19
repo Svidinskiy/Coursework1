@@ -64,11 +64,6 @@ public class Employee {
                 ", Отдел: " + department + ", Зарплата: ₽" + salary;
     }
 
-    public String toStringWithoutDepartment(){
-        return "Код: " + id +", Фамилия: " + surname + ", Имя: " + name + ", Отчество: " + patronymic +
-                 ", Зарплата: ₽" + salary;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
